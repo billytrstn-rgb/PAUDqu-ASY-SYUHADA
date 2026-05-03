@@ -606,3 +606,174 @@ section { scroll-margin-top: 100px; }
     .hero-content h1 { font-size: 2.1rem; }
     .teachers-grid { grid-template-columns: 1fr; }
 }
+
+/* ========== Location Section ========== */
+.location-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; /* Teks lebih kecil, Map lebih lebar */
+    gap: 30px;
+    margin-top: 40px;
+    align-items: stretch;
+}
+
+.location-card {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: var(--shadow-md);
+    border-bottom: 5px solid var(--primary-orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.location-card p {
+    color: var(--text-gray);
+    line-height: 1.6;
+}
+
+.map-container {
+    border-radius: 30px;
+    overflow: hidden; /* Supaya map-nya ikut melengkung di pojok */
+    box-shadow: var(--shadow-md);
+    min-height: 350px;
+    border: 5px solid var(--white); /* Frame putih biar kontras */
+}
+
+/* Responsif buat Tablet & HP */
+@media (max-width: 992px) {
+    .location-grid {
+        grid-template-columns: 1fr; /* Tumpuk atas bawah */
+    }
+    
+    .location-card {
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .map-container {
+        height: 300px;
+    }
+}
+
+/* Pastikan container map punya dimensi */
+.map-container {
+    width: 100%;
+    height: 450px; /* Atur tinggi sesuai selera */
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    border: 5px solid white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Memastikan iframe mengisi seluruh wadah */
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Membagi dua sama rata */
+    gap: 30px;
+    margin-top: 40px;
+    align-items: stretch; /* Memaksa kartu & map tingginya sama */
+}
+
+.location-card {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: var(--shadow-md);
+    border-bottom: 5px solid var(--primary-orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.map-container {
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    border: 5px solid var(--white);
+    min-height: 400px; /* Memberi ruang agar peta tidak gepeng */
+    position: relative;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Supaya bagus di HP */
+@media (max-width: 768px) {
+    .location-grid {
+        grid-template-columns: 1fr;
+    }
+    .map-container {
+        height: 300px;
+        min-height: 300px;
+    }
+}
+/* ========== PERBAIKAN LOKASI ========== */
+.location-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px;
+    margin-top: 40px;
+    align-items: stretch; /* Membuat tinggi kiri dan kanan sama otomatis */
+}
+
+.location-card {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: var(--shadow-md);
+    border-bottom: 5px solid var(--primary-orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.map-container {
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    border: 5px solid var(--white);
+    position: relative;
+    min-height: 400px; /* Menjaga agar tidak gepeng di layar lebar */
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Responsif HP */
+@media (max-width: 992px) {
+    .location-grid {
+        grid-template-columns: 1fr; /* Tumpuk atas bawah di tablet/HP */
+    }
+    
+    .map-container {
+        height: 350px; /* Tinggi tetap saat tampilan mobile */
+        min-height: 350px;
+    }
+}

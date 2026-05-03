@@ -29,6 +29,7 @@
                 <li><a href="#profil">PROFIL</a></li>
                 <li><a href="#kegiatan">KEGIATAN</a></li>
                 <li><a href="#guru-kami">GURU KAMI</a></li>
+                 <li><a href="#lokasi">LOKASI</a></li>
                 <li><a href="#fasilitas">FASILITAS</a></li>
             </ul>
             <a href="#cta" class="btn btn-primary nav-btn">AYO BERGABUNG!</a>
@@ -74,6 +75,12 @@
                     Guru Kami
                 </a>
             </li>
+            <li>
+        <a href="#lokasi">
+            <span class="drawer-icon di-orange"><i class="fa-solid fa-map-location-dot"></i></span>
+            Lokasi
+        </a>
+    </li>
             <li>
                 <a href="#fasilitas">
                     <span class="drawer-icon di-purple"><i class="fa-solid fa-building"></i></span>
@@ -214,6 +221,31 @@
             
         </div>
     </section>
+
+  <!-- ===== LOKASI ===== -->
+ <section id="lokasi" class="location container section-padding reveal">
+    <h2 class="section-title">Lokasi Kami</h2>
+    <div class="location-grid">
+        <!-- Kartu Alamat -->
+        <div class="location-card">
+            <div class="card-content">
+                <i class="fa-solid fa-location-dot icon-large text-orange"></i>
+                <h3>PAUDqu ASY SYUHADA</h3>
+                <p>Jl. Raya Ciomas Cibinong No.34, Sukamakmur, Kec. Ciomas, Kabupaten Bogor, Jawa Barat 16610</p>
+                <a href="https://maps.app.goo.gl/8FVMbuEbUNRMKHqU8" target="_blank" class="btn btn-primary">Lihat di Google Maps</a>
+            </div>
+        </div>
+
+        <!-- Wadah Peta -->
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3963.292319!2d106.7500809!3d-6.6033336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMzYnMTEuOSJTIDEwNsKwNDUnMDAuMyJF!5e0!3m2!1sid!2sid!4v1714737000000!5m2!1sid!2sid" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</section>
 
     <!-- ===== FASILITAS ===== -->
     <section id="fasilitas" class="facilities container section-padding reveal">
