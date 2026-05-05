@@ -113,7 +113,7 @@
             <a href="#cta" class="btn btn-success">Daftar Sekarang</a>
         </div>
         <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Anak Bermain">
+            <img src="Img/Foto-Foto murid.jpeg" alt="Foto Siswa">
         </div>
     </section>
 
@@ -189,34 +189,31 @@
             
             <div class="card teacher-card">
                 <div class="teacher-img ring-orange">
-                    <img src="img/foto-fitri.jpg" alt="Ibu Fitri, S.Pd">
+                    <img src="img/Usep Saefullah.jpeg" alt="Pak Usep Saefullah, S.Pd">
                 </div>
-                <h3>Ibu Fitri, S.Pd</h3>
+                <h3>Pak Usep Saefullah, S.Pd, I</h3>
                 <p class="role role-orange">KEPALA SEKOLAH</p>
             </div>
             
             <div class="card teacher-card">
                 <div class="teacher-img ring-blue">
-                    <img src="img/foto-siti.jpg" alt="Ibu Siti, A.Ma">
+                    <img src="img/Enung Surtasih.jpeg" alt="Ibu Enung Surtasih, A.Ma">
                 </div>
-                <h3>Ibu Siti, A.Ma</h3>
-                <p class="role role-blue">WALI KELAS A</p>
+                <h3>Ibu Enung Surtasih, S, Pd</h3>
             </div>
             
             <div class="card teacher-card">
                 <div class="teacher-img ring-pink">
-                    <img src="img/foto-ani.jpg" alt="Ibu Ani, S.Pd">
+                    <img src="img/Sumiati.jpeg" alt="Ibu Sumiati, S.Pd">
                 </div>
-                <h3>Ibu Ani, S.Pd</h3>
-                <p class="role role-pink">WALI KELAS B</p>
+                <h3>Ibu Sumiati, S.Pd</h3>
             </div>
             
             <div class="card teacher-card">
                 <div class="teacher-img ring-green">
-                    <img src="img/foto-rina.jpg" alt="Ibu Rina">
+                    <img src="img/Neneng.jpeg" alt="Ibu Neneng">
                 </div>
-                <h3>Ibu Rina</h3>
-                <p class="role role-green">STAF PENGAJAR</p>
+                <h3>Ibu Neneng, S.Pd</h3>
             </div>
             
         </div>
