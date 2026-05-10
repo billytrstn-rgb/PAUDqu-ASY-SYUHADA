@@ -186,34 +186,37 @@
         <h2 class="section-title">Tim Pendidik Kami</h2>
         <p class="section-subtitle">Dibimbing oleh guru-guru yang sabar & penuh kasih sayang</p>
         <div class="teachers-grid">
-            
+
             <div class="card teacher-card">
-                <div class="teacher-img ring-orange">
-                    <img src="img/Usep Saefullah.jpeg" alt="Pak Usep Saefullah, S.Pd">
+                <div class="teacher-img ring-green">
+                    <img src="img/Neneng.jpeg" alt="Ibu Neneng">
                 </div>
-                <h3>Pak Usep Saefullah, S.Pd, I</h3>
-                <p class="role role-orange">KEPALA SEKOLAH</p>
+                <h3>Ibu Neneng, S.Pd</h3>
+                 <p class="role role-green">KEPALA SEKOLAH</p>
             </div>
             
             <div class="card teacher-card">
                 <div class="teacher-img ring-blue">
                     <img src="img/Enung Surtasih.jpeg" alt="Ibu Enung Surtasih, A.Ma">
                 </div>
-                <h3>Ibu Enung Surtasih, S, Pd</h3>
+                <h3>Ibu Enung Surtasih</h3>
+                <p class="role role-blue">GURU 1</p>
             </div>
             
             <div class="card teacher-card">
                 <div class="teacher-img ring-pink">
                     <img src="img/Sumiati.jpeg" alt="Ibu Sumiati, S.Pd">
                 </div>
-                <h3>Ibu Sumiati, S.Pd</h3>
+                <h3>Ibu Sumiati</h3>
+                <p class="role role-pink">GURU 2</p>
             </div>
-            
+
             <div class="card teacher-card">
-                <div class="teacher-img ring-green">
-                    <img src="img/Neneng.jpeg" alt="Ibu Neneng">
+                <div class="teacher-img ring-orange">
+                    <img src="img/Usep Saefullah.jpeg" alt="Pak Usep Saefullah, S.Pd">
                 </div>
-                <h3>Ibu Neneng, S.Pd</h3>
+                <h3>Pak Usep Saefullah, S.Pd, I</h3>
+                <p class="role role-orange">OPERATOR</p>
             </div>
             
         </div>
